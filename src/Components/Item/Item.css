@@ -1,0 +1,74 @@
+.Item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30rem;
+    margin: 1.6rem;
+    border: 0.3rem solid rgb(165, 101, 42);
+  }
+
+.picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 7.5rem;
+    width: 7.5rem;
+}
+
+.Item-name{
+    font-size : 1.95rem;
+    font-weight: bold;
+    color: brown;
+}
+
+.Item-brand{
+    font-size: 1.65rem;
+    font-weight: bold;
+    color: brown;
+}
+
+.Item-information{
+    display: flex;
+    justify-content: space-between;
+}
+  
+.Item-information p{
+    font-size: 1.35rem;
+    font-weight: bold;
+    color: brown;
+    margin: 0.3rem;
+
+}
+.Image{
+    font-size: 1.35rem;
+    color: brown;
+    margin-bottom: 0.5rem;
+}
+.Image a{
+    font-weight: bold;
+    color: rgb(117, 25, 25);
+    /* text-decoration: none; */
+}
+.Image a:hover{
+    color: brown;
+    font-weight: bolder;
+}
+hr{
+    color: brown;
+    border-color: brown;
+    width: 100%;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+button{
+    font-size: 1rem;
+    background-color: tan;
+    border-color: brown;
+    cursor: pointer;
+    margin: 0rem 1rem;
+}
+button:hover{
+    background-color: brown;
+}

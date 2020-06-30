@@ -1,0 +1,20 @@
+.Items_list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: tan;
+}
+
+.no_results{
+    background-color: tan;
+    font-weight: bold;
+    color: brown;
+}
+
+.no_results h1{
+    color: brown;
+}
+
+h3{
+    font-size: 1.5rem;
+}

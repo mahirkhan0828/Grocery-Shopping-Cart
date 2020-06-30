@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+
+h1 {
+  padding: 1rem 0;
+  font-size: 3rem;
+  color: #fff;
+  font-weight: bold;
+  background-color: tan;
+  text-align: center;
+  width: 100%;
+}
+
+a {
+  color: white;
+}
+
+.nutritionix{
+  text-align: left;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  background-color: tan;
+  color: white;
+  font-size: 1.7rem;
+  opacity: 0.8;
+}
+.break{
+  height: 1rem;
+  background-color: tan;
+  width: 100%;
+}
+.ShoppingCart{
+  margin-left: 60%;
+}
+.ShoppingCart a{
+  text-decoration: none;
+  font-weight: bolder;
+}
+.ShoppingCart a:hover{
+  color: brown;
+  cursor: pointer;
+}
+.header img{
+  height: 1.5rem;
+  width: 1.8rem;
+  margin: 0 1rem;
+}
