@@ -21,7 +21,7 @@ export class Item extends React.Component{
             &name=${name}&calories=${calories}&serving_size=${serving_size}
             &serving_unit=${serving_unit}&image_src=${image_src}`);
         }
-        // Check if the item is from the itemslist or the shopping cart.
+        // Check if the item is from the items list or the shopping cart.
         // We only want to reload page if the user is in the shopping cart page.
         if(!this.props.product.id){
             window.location.reload();
