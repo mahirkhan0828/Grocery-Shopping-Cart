@@ -62,13 +62,13 @@ export class App extends React.Component{
     });    
   }
   componentDidMount(){
-    if (window.location.href !== "http://localhost:3000/ShoppingCart"){
+    if (window.location.href !== "http://grocerycaloriecounter.surge.sh/ShoppingCart"){
       this.clearOutOldData();
     }
   }
   componentWillUnmount(){
     // Cleanup the event listener that was added before.
-    if (window.location.href !== "http://localhost:3000/ShoppingCart"){
+    if (window.location.href !== "http://grocerycaloriecounter.surge.sh/ShoppingCart"){
       window.removeEventListener('load', (event) => {
         event.preventDefault();
         event.returnValue = '';
