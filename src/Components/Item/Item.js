@@ -35,6 +35,7 @@ export class Item extends React.Component{
         if(image_src){
             axios.delete(`https://obscure-citadel-45579.herokuapp.com/ShoppingCart/delete/?image_src=${image_src}`);
         }
+        alert("Product successfully removed from Shopping Cart");
     }
     render(){
         if (this.props.product == null){

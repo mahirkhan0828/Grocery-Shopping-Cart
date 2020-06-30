@@ -26,6 +26,7 @@ export class Cart extends React.Component{
     }
     deleteAll(){
         axios.delete(`https://obscure-citadel-45579.herokuapp.com/ShoppingCart/deleteall`);
+        alert("All products successfully removed from shopping cart.");
     }
     reload(){
         window.location.reload();
